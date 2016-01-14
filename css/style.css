@@ -1,0 +1,147 @@
+/* #233639
+#BBC1F5*/
+
+* {
+  box-sizing: border-box;
+  font-family: 'Ubuntu', open-sans;
+}
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+.block1 {
+  height:700px;
+  text-align: center;
+  background: white;
+}
+
+form span {
+  display: block;
+  font-style: italic;
+  font-size: 20px;
+  padding-bottom: 5px;
+  color: #233639;
+}
+
+form input {
+  width: 320px;
+  padding: 10px;
+  border-radius: 0;
+  border-style: none;
+  border: 2px solid #BBC1F5;
+}
+
+.block1 img {
+  position: relative;
+  z-index: 1;
+  top: 130px;
+  right: 20px;
+
+}
+
+.block1 h1 {
+  font-size: 50px;
+  color: #233639;
+  margin-bottom: 25px;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.wrapper::after {
+  content: ' ';
+  border-top: 140px solid white;
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent;
+  position: absolute;
+  bottom: -149px;
+  left: 38%;
+}
+
+.block1 .sign-in {
+  float: right;
+  max-width: 450px;
+  position: relative;
+  top: 220px;
+  right: 50px;
+  text-align: left;
+}
+
+.sign-in a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin-top: 15px;
+  font-size: 20px;
+  color: white;
+  background-color: #BBC1F5;
+  border-radius: 3px;
+
+}
+
+.sign-in a:first-of-type {
+  background-color: #233639;
+  margin-right: 10px;
+}
+
+
+
+
+
+.block2 {
+  height: 500px;
+  background-image: url('../images/bg1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.block2 {
+  color: #fff;
+  font-size: 29px;
+}
+
+.block2 p {
+  padding-top: 15%;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+
+}
+
+.block3 {
+  height: 500px;
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+  background-image: url('../images/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+.block3 h1 {
+  margin-bottom: 20px;
+}
+.block3 p {
+  font-weight: 300;
+}
+
+.wrapper2 {
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.wrapper2 a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 20px 95px;
+  background-color: #BBC1F5;
+  font-size: 20px;
+  border-radius: 3px;
+}
