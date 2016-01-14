@@ -159,76 +159,176 @@ form input {
   font-weight: 300;
 }
 
+
 .block5 {
+  height: 505px;
   width: 100%;
-  height: 1200px;
-  background-color: pink;
-}
-
-.left {
   float: left;
-  width: 50%;
-  height: 100%;
 }
 
-.left .img-block {
-  height: 50%;
-  width: 100%;
-  background-image: url('../images/img2.jpg');
-  background-size: cover;
-}
-
-.violet {
-  width: 100%;
-  height: 50%;
+.block5 .left {
+  float: left;
   background-color: #BBC1F5;
-  text-align: center;
-  color: #fff;
+  height: 100%;
+  width: 50%;
 }
 
-.violet h1 {
-  margin: 0;
-  font-size: 55px;
-  line-height: 1.6;
-  font-weight: bold;
+.block5 .text-wrapper {
+  max-width: 80%;
+  text-align: left;
+  color: #fff;
+  margin: 120px 0px 0px 190px;
+}
+
+.text-wrapper h1 {
+  font-size: 45px;
+  position: relative;
   margin-bottom: 70px;
 }
 
-.violet p {
-  font-size: 28px;
-  line-height: 2;
+.block5 .text-wrapper h1::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 140px;
+  background-color: #fff;
+  top: 140px;
+}
+
+.text-wrapper p {
+  line-height: 1.7;
+  font-size: 25px;
   font-weight: 300;
 
 }
 
-.violet .text {
-  max-width: 525px;
-  text-align: left;
-  position: relative;
-  top: 80px;
-  left: 65px;
-}
-
-.right {
-  float: right;
+.block5 .right {
+  float: left;
   width: 50%;
   background-color: blue;
   height: 100%;
-}
-
-.text::before {
-  content: ' ';
-  display: block;
-  top: 215px;
-  height: 6px;
-  width: 130px;
-  background: white;
-  position: relative;
-}
-
-.right .img-block {
   background-image: url('../images/img1.jpg');
-  height: 50%;
   background-size: cover;
+  background-position: center;
+}
+
+
+.block6 {
+  height: 505px;
+  width: 100%;
+  float: left;
+}
+
+.block6 .right {
+  float: left;
+  width: 50%;
+  height: 100%;
+ 
+}
+
+.block6 .left {
+  float: left;
+  height: 100%;
+  width: 50%;
+  background-color: blue;
+  background-image: url('../images/img2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.block6 .text-wrapper {
+  text-align: left;
+  color: black;
+  margin: 80px 0px 0px 60px;
 
 }
+
+.block6 .text-wrapper h1 {
+  font-size: 45px;
+}
+
+.block6 .text-wrapper ul {
+  padding-left:20px;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
