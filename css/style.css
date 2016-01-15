@@ -231,7 +231,7 @@ form input {
   float: left;
   width: 50%;
   height: 100%;
- 
+
 }
 
 .block6 .left {
@@ -264,7 +264,7 @@ form input {
 }
 
 .block5:after, .block6:after {
-  
+
 }
 
 .block7 {
@@ -424,7 +424,7 @@ form input {
 .container-sign a {
   display: inline-block;
   text-decoration: none;
-  padding: 15px 72px;
+  padding: 15px 63px;
   margin-top: 15px;
   font-size: 20px;
   color: white;
@@ -437,57 +437,18 @@ form input {
   margin-right: 10px;
 }
 
+.fa-chevron-right {
+  position: relative;
+  left: 10px;
+  top: 2px;
+}
 
+.last-links {
+  color: #fff;
+  padding: 0;
+  left: 45px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.middle-link {
+  left: 60px;
+}
